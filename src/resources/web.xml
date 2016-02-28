@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<!DOCTYPE web-app 
+ PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN" 
+ "http://java.sun.com/j2ee/dtds/web-app_2_3.dtd"> 
+
+<web-app> 
+        <servlet> 
+                <servlet-name>Herbert</servlet-name> 
+                <servlet-class>de.hk.ws.BeispielWebservice</servlet-class> 
+        </servlet> 
+        <servlet-mapping> 
+                <servlet-name>Herbert</servlet-name> 
+                <url-pattern>Herbert</url-pattern> 
+        </servlet-mapping> 
+</web-app> 
