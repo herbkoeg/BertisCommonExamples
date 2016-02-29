@@ -8,9 +8,9 @@ import de.hk.exception.BeispielException;
  */
 public enum MehrdimensionalesEnum {
 
-	LEBENS_ODER_RENTENVERSICHERUNG_MIT_TODESFALLRISIKO("Lebens- oder Rentenversicherung mit Todesfallrisiko",1),
-	SBU("SBU",2),
-	PZV("Pflegerentenversicherung",3);
+	LEBENSVERSICHERUNG("Lebens- oder Rentenversicherung mit Todesfallrisiko",1),
+	BUVERSICHERUNG("Berufsunfaehigkeits Versicherung",2),
+	PFLEGEVERSICHERUNG("Pflegerentenversicherung",3);
 	 
 	private MehrdimensionalesEnum(String name, long schluessel) {
 		this.schluessel = schluessel;
